@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Postagem</title>
+    <link rel="stylesheet" href="../auuiii/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Minha Rede Social</h1>
+            <nav>
+                <a href="index.html" class="header-icon"><img src="home-icon.png" alt="Início"></a>
+                <a href="profile.html" class="header-icon"><img src="profile-icon.png" alt="Perfil"></a>
+                <a href="logout.html" class="header-icon"><img src="logout-icon.png" alt="Sair"></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="create-post-form">
+            <h2>Criar Postagem</h2>
+            <form>
+                <div class="form-group">
+                    <label for="post-text">Texto:</label>
+                    <textarea id="post-text" name="post-text" rows="4" placeholder="O que você está pensando?"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="post-image">Imagem:</label>
+                    <input type="file" id="post-image" name="post-image" accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label for="post-video">Vídeo:</label>
+                    <input type="file" id="post-video" name="post-video" accept="video/*">
+                </div>
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-icons">
+            <a href="index.html" class="icon"><img src="home-icon.png" alt="Início"></a>
+            <a href="#" class="icon"><img src="search-icon.png" alt="Pesquisar"></a>
+            <a href="create-post.html" class="icon"><img src="post-icon.png" alt="Postar"></a>
+            <a href="profile.html" class="icon"><img src="profile-icon.png" alt="Perfil"></a>
+        </div>
+    </footer>
+</body>
+</html>

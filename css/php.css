@@ -1,0 +1,111 @@
+/* Exemplo de estilo básico */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.header-icon {
+    margin: 0 10px;
+}
+
+.header-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+.posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-image, .post-video {
+    max-width: 100%;
+    height: auto;
+}
+
+.create-post-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons .icon {
+    margin: 0 10px;
+}
+
+.footer-icons img {
+    width: 24px;
+    height: 24px;
+}
